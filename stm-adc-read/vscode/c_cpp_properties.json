@@ -1,0 +1,45 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/Ashish/Documents/PlatformIO/Projects/stm-adc-read/include",
+                "C:/Users/Ashish/Documents/PlatformIO/Projects/stm-adc-read/src",
+                "C:/Users/Ashish/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                "C:/Users/Ashish/.platformio/packages/framework-cmsis-stm32f4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/Ashish/Documents/PlatformIO/Projects/stm-adc-read/include",
+                    "C:/Users/Ashish/Documents/PlatformIO/Projects/stm-adc-read/src",
+                    "C:/Users/Ashish/.platformio/packages/framework-cmsis@2.50501.200527/CMSIS/Include",
+                    "C:/Users/Ashish/.platformio/packages/framework-cmsis-stm32f4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "STM32F4",
+                "STM32F401xE",
+                "STM32F40_41xxx",
+                "STM32F401xE",
+                "F_CPU=84000000L",
+                ""
+            ],
+            "compilerPath": "C:/Users/Ashish/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
